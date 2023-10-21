@@ -1,0 +1,86 @@
+//How to add a sound to your Keybind
+bind "key" ""action";Alias Name"
+
+//example 
+bind ctrl "+duck;+low"
+
+//How to add a alias bind
+alias "name" "play "file directory""
+//example
+alias +low "play buttons/latchunlocked2"
+
+//toggle volume
+"snd_toolvolume 1"
+//can change volume volume from 0 to 1(best to make 2 key binds to toggle sound on or off)
+
+//File Directory Names
+
+//BUTTONS
+buttons/bell1
+buttons/blip1
+buttons/blip2
+buttons/button8
+buttons/button9
+buttons/coop_apc_lever
+buttons/latchunlocked2
+buttons/lever6
+buttons/light_power_on_switch_01
+
+//COMMON
+common/talk
+commmon/null
+
+//DOORS
+doors/door_metal_gate_move1
+doors/door_metal_thin_close2
+doors/door_metal_thin_open1
+doors/door_plastic_full_close_01
+doors/door_plastic_full_close_02
+doors/door_plastic_full_close_03
+doors/door_plastic_full_close_04
+doors/door_plastic_full_open_01
+doors/door_plastic_start_close_01
+doors/door_plastic_start_close_02
+doors/door_plastic_start_open_01
+doors/door_wood_full_close_01
+doors/door_wood_full_close_02
+doors/door_wood_full_open_01
+doors/door_wood_start_close_01
+doors/door_wood_start_open_01
+doors/metal_door_full_close_01
+doors/metal_door_full_close_02
+doors/metal_door_full_open_01
+doors/metal_door_full_open_02
+doors/metal_door_move_01
+doors/metal_door_move_02
+doors/metal_door_move_03
+doors/metal_door_open_01
+doors/metal_door_open_02
+
+//ITEMS
+items/medshot4
+items/nvg_on
+items/spraycan_shake
+items/sparycan_spray
+
+//HOSTAGE
+vo/hostage/hpain/hpain1
+vo/hostage/hpain/hpain2
+vo/hostage/hpain/hpain3
+vo/hostage/hpain/hpain4
+vo/hostage/hpain/hpain5
+vo/hostage/hpain/hpain6
+
+vo/hostage/huse/getouttahere
+vo/hostage/huse/hostage_breath
+vo/hostage/huse/hostage_cut_free_with_defuser
+vo/hostage/huse/hostage_cut_free_without_defuser
+vo/hostage/huse/hostage_drop
+vo/hostage/huse/hostage_pickup
+vo/hostage/huse/illfollow
+vo/hostage/huse/letsdoit
+vo/hostage/huse/letsgo
+vo/hostage/huse/letshurry
+vo/hostage/huse/letsmove
+vo/hostage/huse/okletsgo
+vo/hostage/huse/youlead
